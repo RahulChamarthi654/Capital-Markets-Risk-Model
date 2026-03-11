@@ -4,9 +4,9 @@
 
 This project is a corporate finance model that evaluates publicly traded equities using core capital market risk and return metrics.
 
-The program analyzes **10 years of historical market data** to estimate systematic risk, total risk, downside risk, and the **cost of equity** under the Capital Asset Pricing Model (CAPM).
+The program analyzes 10 years of historical market data to estimate systematic risk, total risk, downside risk, and the cost of equity under the Capital Asset Pricing Model (CAPM).
 
-In addition to producing a structured summary table, the model generates a **Risk vs. Return visualization (CAGR vs. Volatility)** to illustrate the relationship between return and total risk across selected equities.
+In addition to producing a structured summary table, the model generates a Risk vs. Return visualization (CAGR vs. Volatility) to illustrate the relationship between return and total risk across selected equities.
 
 ---
 
@@ -18,17 +18,6 @@ In addition to producing a structured summary table, the model generates a **Ris
 - **Sharpe Ratio** – Risk-adjusted return  
 - **CAPM Expected Return (Cost of Equity)** – Required return based on systematic risk  
 - **Maximum Drawdown** – Largest peak-to-trough decline  
-
----
-
-## Visualization
-
-The model produces a **Risk vs. Return scatter plot**, where:
-
-- **X-axis:** Annualized Volatility  
-- **Y-axis:** Compound Annual Growth Rate (CAGR)
-
-This visualization demonstrates the fundamental capital markets principle that **higher expected returns are generally associated with higher levels of risk**.
 
 ---
 
@@ -44,25 +33,13 @@ This model can be applied in areas such as:
 
 ---
 
-## Technologies Used
+## Technologies Used (Displayed in requirements.txt)
 
 - Python  
 - pandas  
 - NumPy  
 - matplotlib  
 - yfinance  
-
----
-
-## Repository Structure
-
-```
-capital-markets-risk-model/
-│
-├── capital_markets_model.py   # Main Python script
-├── requirements.txt           # Project dependencies
-└── README.md                  # Project documentation
-```
 
 ---
 
