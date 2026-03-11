@@ -48,13 +48,13 @@ This model can be applied in areas such as:
 ### 1. Clone the repository
 
 ```
-git clone https://github.com/yourusername/capital-markets-risk-model.git
+git clone https://github.com/RahulChamarthi654/Capital-Markets-Risk-Model.git
 ```
 
 ### 2. Navigate to the project folder
 
 ```
-cd capital-markets-risk-model
+cd Capital-Markets-Risk-Model
 ```
 
 ### 3. Install required libraries
@@ -67,10 +67,10 @@ pip install -r requirements.txt
 
 ## Running the Program
 
-After installing dependencies, run the script:
+After installing libraries and dependencies, run the script:
 
 ```
-python capital_markets_model.py
+python main.py
 ```
 
 The program will:
@@ -84,7 +84,7 @@ The program will:
 
 ## Running in Google Colab
 
-This project can also be run directly in **Google Colab**.
+This project can also be run directly in Google Colab without installing any dependencies.
 
 
 ---
